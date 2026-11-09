@@ -42,7 +42,3 @@ git clone https://github.com/nazareno11414/adivina-el-numero.git
 - Guardar datos en el HTML con atributos **`data-*`**.
 - Separar el **estado** del juego (variables) de lo que se muestra en pantalla.
 - Encontrar errores con la **consola del navegador**.
-
----
-
-Proyecto 1 de mi plan de estudio para ser desarrollador full stack.
