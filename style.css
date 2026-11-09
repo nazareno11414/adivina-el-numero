@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&display=swap");
+
+* { box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  width: min(100% - 2rem, 32rem);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4rem 0;
+  color: #26334d;
+  background: #f6f8fc;
+  font-family: Nunito, system-ui, sans-serif;
+}
+
+h1, .form-adivinar, .pista { flex-basis: 100%; }
+
+h1 {
+  margin: 0 0 1.25rem;
+  color: #272a4f;
+  font-size: clamp(2rem, 8vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.form-adivinar { display: flex; gap: 0.65rem; }
+.form-adivinar label { display: none; }
+
+#numero {
+  width: 100%; height: 3.25rem; padding: 0 1rem;
+  border: 2px solid #dbe2f0; border-radius: 0.8rem; outline: none;
+  color: #272a4f; background: #fff; font: inherit; font-size: 1.05rem;
+}
+
+#numero:focus { border-color: #7b6df2; box-shadow: 0 0 0 4px rgba(123, 109, 242, 0.14); }
+
+button {
+  min-width: 5.9rem; height: 2.8rem; padding: 0 1rem; border: 0; border-radius: 0.7rem;
+  cursor: pointer; color: #54516f; background: #e9e7ff; font: inherit; font-weight: 800;
+  transition: transform 150ms ease, background 150ms ease;
+}
+
+button:hover { background: #dcd8ff; transform: translateY(-2px); }
+button:active { transform: translateY(0); }
+
+.adivinar { min-width: 7rem; height: 3.25rem; color: #fff; background: #7b6df2; }
+.adivinar:hover { background: #6859df; }
+.reiniciar { color: #ba5264; background: #fff0f2; }
+.reiniciar:hover { background: #ffe0e5; }
+
+.pista {
+  margin: 1rem 0 0; padding: 0.9rem 1rem; border-radius: 0.75rem;
+  color: #65708a; background: #fff; text-align: center;
+}
+
+.intentos {
+  flex-basis: 100%;
+  margin: 0;
+  color: #7b6df2;
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media (max-width: 380px) {
+  body { padding-top: 2.5rem; }
+  .form-adivinar { flex-wrap: wrap; }
+  .adivinar { width: 100%; }
+  button:not(.adivinar) { flex: 1; min-width: 0; }
+}
