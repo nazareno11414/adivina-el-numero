@@ -1,9 +1,9 @@
-# 🎯 Adivina el número
+# Adivina el número
 
 Juego en el navegador hecho con **HTML, CSS y JavaScript puro** (sin librerías).
 La computadora piensa un número al azar y tenés **10 intentos** para adivinarlo.
 
-## 🎮 Cómo se juega
+## Cómo se juega
 
 1. Elegí una dificultad: **1-10**, **1-100** o **1-500**.
 2. Escribí un número y apretá **adivinar** (o Enter).
@@ -11,7 +11,7 @@ La computadora piensa un número al azar y tenés **10 intentos** para adivinarl
 4. Si lo encontrás antes de los 10 intentos, ganás. Si no, te muestra cuál era.
 5. Con **reiniciar** empezás una partida nueva.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Número secreto aleatorio con `Math.random()`
 - Tres niveles de dificultad
@@ -20,7 +20,7 @@ La computadora piensa un número al azar y tenés **10 intentos** para adivinarl
 - Validación del input vacío
 - Botón para reiniciar sin recargar la página
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - HTML5
 - CSS3
@@ -34,7 +34,7 @@ Descargá el repositorio y abrí `index.html` en el navegador. No hace falta ins
 git clone https://github.com/nazareno11414/adivina-el-numero.git
 ```
 
-## 🧠 Qué aprendí
+## Qué aprendí
 
 - Manejar el **DOM**: seleccionar elementos, cambiar textos y activar o desactivar botones.
 - Usar **eventos** (`click` y `submit`) y `preventDefault()` en formularios.
