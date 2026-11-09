@@ -61,11 +61,11 @@ numEscrito.addEventListener("submit", (e) => {
       } else {
         pista.textContent = "Mas bajo";
       }
+      if (cont === 10) {
+        pista.textContent = `Perdiste, El número era ${numeroRandom}`;
+        btnAdivinar.setAttribute("disabled", "");
+      }
     }
-  }
-  if (cont === 10) {
-    pista.textContent = `Perdiste, El número era ${numeroRandom}`;
-    btnAdivinar.setAttribute("disabled", "");
   }
 });
 
