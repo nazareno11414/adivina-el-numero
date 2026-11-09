@@ -31,7 +31,7 @@ La computadora piensa un número al azar y tenés **10 intentos** para adivinarl
 Descargá el repositorio y abrí `index.html` en el navegador. No hace falta instalar nada.
 
 ```bash
-git clone https://github.com/Nazareno11414/adivina-el-numero.git
+git clone https://github.com/nazareno11414/adivina-el-numero.git
 ```
 
 ## 🧠 Qué aprendí
