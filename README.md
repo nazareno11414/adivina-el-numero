@@ -26,7 +26,7 @@ La computadora piensa un número al azar y tenés **10 intentos** para adivinarl
 - CSS3
 - JavaScript (vanilla)
 
-## 🚀 Cómo probarlo
+## Cómo probarlo
 
 Descargá el repositorio y abrí `index.html` en el navegador. No hace falta instalar nada.
 
